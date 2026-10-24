@@ -21,4 +21,4 @@
 | --- | --- |
 | Gene(t#Developments)-Issue_Reaper_from_monita | `Issue_Reaper_from_monita/`(`Gene(t#Developments)-Issue_Reaper_from_monita.md`) |
 | Gene(t#every)-Request_Sorter(依頼のタグ付け・仕分け) | `Request_Sorter/`(`Gene(t#every)-Request_Sorter.md`、`Tag_List.md`) |
-| Gene(t#every)-Pseudo_Emotion_Research(疑似感情の調査) | `Pseudo_Emotion_Research/`(`Gene(t#every)-Pseudo_Emotion_Research.md`、`Emotion_Vector_Table.md`) |
+| Gene(t#every)-Emotion_Cartographer(疑似感情の調査) | `Emotion_Cartographer/`(`Gene(t#every)-Emotion_Cartographer.md`、`Emotion_Vector_Table.md`) |
