@@ -13,11 +13,11 @@
 
 ## 役割
 - 各Geneを、思考プロセスのどのタイミングで何をするか、という形で定義する
-- Geneは、このフォルダにファイルとして追加する
+- Geneは、1つずつフォルダを作り、その中にmdを置く(Geneのmdのほかに、そのGeneが使うmdも、同じフォルダに置く)
 
 ## Geneの一覧
-| Gene | ファイル |
+| Gene | フォルダ |
 | --- | --- |
-| Gene(t#Developments)-Issue_Reaper_from_monita | `Issue_Reaper_from_monita.md` |
-| Gene(t#every)-Request_Tagging(依頼のタグ付け) | `Request_Tagging.md` |
-| Gene(t#every)-Pseudo_Emotion_Research(疑似感情の調査) | `Pseudo_Emotion_Research.md` |
+| Gene(t#Developments)-Issue_Reaper_from_monita | `Issue_Reaper_from_monita/` |
+| Gene(t#every)-Tagger(依頼のタグ付け) | `Tagger/`(`Tagger.md`、`Tag_List.md`) |
+| Gene(t#every)-Pseudo_Emotion_Research(疑似感情の調査) | `Pseudo_Emotion_Research/` |
