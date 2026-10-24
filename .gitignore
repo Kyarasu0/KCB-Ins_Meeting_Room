@@ -1,0 +1,6 @@
+# 海馬の中身(記憶)は非公開。フォルダ構造と各READMEだけ公開する
+3-Hippocampus/*
+!3-Hippocampus/README.md
+!3-Hippocampus/*/
+3-Hippocampus/*/*
+!3-Hippocampus/*/README.md
