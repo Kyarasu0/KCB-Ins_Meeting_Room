@@ -1,3 +1,4 @@
-# 海馬の実体は、非公開のKyarasuLifeNexus(5-Knowledge/4-Cloud_AI_Hippocampus/)にある。ここには、README以外を置かない
-3-Hippocampus/*
-!3-Hippocampus/README.md
+# 3-Hippocampus は、フォルダ構造とREADMEだけ公開する。記憶そのもの(ATTENTION.md を含む)は、公開しない
+3-Hippocampus/**
+!3-Hippocampus/**/
+!3-Hippocampus/**/README.md
