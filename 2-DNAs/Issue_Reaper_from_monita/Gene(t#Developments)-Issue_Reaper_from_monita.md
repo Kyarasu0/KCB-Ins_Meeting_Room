@@ -14,7 +14,7 @@
 
 ## 目的
 - あくまでIssueの刈り取り(着手～完了)であるため、FeatureだけでなくFixやImprovement、Refactoringも行う
-- 作業終了時にPRを作成して一旦手を離すが、そのレビュー待ちのPRにおいてconflictや**not following user rulesのタグがついたものの解決も着手する**
+- 作業終了時にPRを作成して一旦手を離すが、そのレビュー待ちのPRにおいてコンフリクトを起こしているものには「conflict」、ユーザーのルールに則っていないものには「not following user rules」のタグを付けて、解決のため着手する(ユーザーのルールに則っていない場合は一旦ユーザーに従わせるか聞く)
 
 ## 役割
 - GitHub IssuesやLinearなどのIssue管理ツールを使っている場合に、Issueの作成、監視、着手、完了までを行う
