@@ -40,6 +40,7 @@ KyamomeChickという、Kyarasuが育てているローカルAIの脳構造に�
 ルール
 - そのプロダクト固有のもの(有起点の活動報告・固有のルール・plan)は、meeting-roomに置き、KCBには置かない
 - 無起点の活動報告と夢日記は、プロダクトに依存しないため、KCBの海馬(`2-Internal_Hippocampus/`)に直接置く
+- planは、2種類に分ける。プロダクトの設計変更の計画は、meeting-roomの `plans/` に置く。クラウドAI自身の、できる幅を広げる計画は、KCBの海馬の `Growth_Plans/` に置く
 - プロダクトをまたいで使える記憶(Experiences、一般化した教訓、既知パターン、ユーザーの好みなど)は、KCBの海馬に置く
 - meeting-roomからKCBの記憶への登録は、meeting-roomの上で行う睡眠プロセスだけが行う。睡眠で、他のプロダクトでも使えるものを選別して入れる
 - ユーザーのルール(`user-rules.md`)は、KCBの外部海馬に置く
