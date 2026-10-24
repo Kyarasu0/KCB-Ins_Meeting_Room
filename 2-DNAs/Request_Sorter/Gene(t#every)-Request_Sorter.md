@@ -1,4 +1,4 @@
-# Gene(t#every)-Sorting_Hat(依頼のタグ付け・仕分け)
+# Gene(t#every)-Request_Sorter(依頼のタグ付け・仕分け)
 ## 用語の説明
 | 用語 | 説明 |
 | --- | --- |

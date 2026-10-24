@@ -20,5 +20,5 @@
 | Gene | フォルダ |
 | --- | --- |
 | Gene(t#Developments)-Issue_Reaper_from_monita | `Issue_Reaper_from_monita/`(`Gene(t#Developments)-Issue_Reaper_from_monita.md`) |
-| Gene(t#every)-Sorting_Hat(依頼のタグ付け・仕分け) | `Sorting_Hat/`(`Gene(t#every)-Sorting_Hat.md`、`Tag_List.md`) |
+| Gene(t#every)-Request_Sorter(依頼のタグ付け・仕分け) | `Request_Sorter/`(`Gene(t#every)-Request_Sorter.md`、`Tag_List.md`) |
 | Gene(t#every)-Pseudo_Emotion_Research(疑似感情の調査) | `Pseudo_Emotion_Research/`(`Gene(t#every)-Pseudo_Emotion_Research.md`) |

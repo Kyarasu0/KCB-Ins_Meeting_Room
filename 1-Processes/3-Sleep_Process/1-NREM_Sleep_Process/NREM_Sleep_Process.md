@@ -65,7 +65,7 @@
 ### 記録と反映
 13. 整理した内容を、今回の活動報告に書く
 14. KCBの変更を反映(push)する
-    - KCBに変更があるとき(例: Sorting_Hat の `Tag_List.md` の更新)は、変更したファイルだけをコミットして、pushする
+    - KCBに変更があるとき(例: Request_Sorter の `Tag_List.md` の更新)は、変更したファイルだけをコミットして、pushする
     - KCBの記憶(KyarasuLifeNexusの `5-Knowledge/4-Cloud_AI_Hippocampus/`)に変更があるときも、パスを指定してコミットして、pushする
     - 公開されるKCBには、記憶の中身やユーザーの個人情報を含めない
     - pushできなかったとき(競合など)は、強制せず、活動報告の「未解決」に書く
