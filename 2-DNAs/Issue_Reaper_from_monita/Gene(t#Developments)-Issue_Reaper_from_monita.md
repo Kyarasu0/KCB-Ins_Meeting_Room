@@ -5,7 +5,7 @@
 | Issue | 依頼(ゴール)1つにつき1つ作る、作業の管理単位 |
 | SubIssue | Issueの下に作る、必要条件1つにつき1つの作業単位 |
 | blocked | 先にやるべきことがあるIssueに付けるタグ。何を待つのかも書く。着手するときに外す |
-| request-claude | Claudeに着手してほしいIssueに付けるタグ |
+| request-reaper | クラウドAIに着手してほしいIssueに付けるタグ |
 
 ## 背景
 - かつてKyarasuが考案した、Issueの監視と自動着手の仕組み「モニ太」のハーネスを引き継いでいる
