@@ -2,10 +2,10 @@
 ## 用語の説明
 | 用語 | 説明 |
 | --- | --- |
-| meeting-room | 各プロダクトに置く、開発するクラウドAIと人間が、プロダクトのプログラムとは関係なく、認識を合わせる場。そのプロダクトの活動報告(`meeting-room/activities/`)、固有のルール(`meeting-room/rules/`)、plan(`meeting-room/plans/`)、夢日記(`meeting-room/dream_diary/`)を置く。睡眠は、meeting-roomの上で行う。雛形は、KCBの `5-Meeting_Room/` |
+| meeting-room | 各プロダクトに置く、開発するクラウドAIと人間が、プロダクトのプログラムとは関係なく、認識を合わせる場。そのプロダクトの活動報告(`meeting-room/activities/`)、固有のルール(`meeting-room/rules/`)、plan(`meeting-room/plans/`)を置く。睡眠は、meeting-roomの上で行う。雛形は、KCBの `5-Meeting_Room/` |
 | KCBの記憶 | KCBの海馬(`3-Hippocampus/`)にある、プロダクトをまたいで使える記憶(Experiences、`generalized-knowledge.md`、Familiar_Patterns.md、ユーザーの好みなど)。meeting-roomの活動報告から、睡眠で入れる |
 | 有起点の活動報告 | 有起点思考の作業ごとに作る記録。`meeting-room/activities/Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N_依頼の題名.md` に置く。Nはその日の作業番号。依頼の題名は、整理した依頼を表す短い名前で、依頼が複数あるときは、全体を表す名前にする |
-| 無起点の活動報告 | 無起点思考の1回の起動ごとに作る記録。`meeting-room/activities/Non_Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N.md` に置く。有起点の活動報告とは、分けて保存する |
+| 無起点の活動報告 | 無起点思考の1回の起動ごとに作る記録。`3-Hippocampus/2-Internal_Hippocampus/activities/Non_Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N.md`(KCBの海馬)に置く。有起点の活動報告とは、分けて保存する |
 
 ## 目的
 - プロセス1からプロセス7までを順番に進め、プロセスが進むごとにユーザーへ報告し、活動報告を更新する

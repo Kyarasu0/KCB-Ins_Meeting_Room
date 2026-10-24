@@ -19,7 +19,7 @@
 
 ## 睡眠が必要だと判断する条件
 次のどれかに当てはまったら、作業の開始時か終了時に睡眠を行う
-- meeting-roomに、`_reviewed` が付いていない活動報告(有起点・無起点のどちらも)が5件以上ある(活動報告が増えすぎて、そのままでは読み切れなくなるため、要約・整理する)
+- `_reviewed` が付いていない活動報告(meeting-roomの有起点の活動報告と、KCBの海馬の無起点の活動報告の合計)が5件以上ある(活動報告が増えすぎて、そのままでは読み切れなくなるため、要約・整理する)
 - 作業中に、リモートで消えたローカルブランチを見つけた
 
 条件に当てはまって、自分から睡眠を始めるときは、作業の途中では睡眠しない。実行する前に、ユーザーに「整理してよいか」を一言確認する
@@ -30,7 +30,7 @@
 ## 手順
 ### 経験の整理
 1. 再生・振り返り: `_reviewed` が付いていない活動報告を読む
-   - 対象: meeting-roomの有起点・無起点の活動報告(`meeting-room/activities/` の `Trigger/` と `Non_Trigger/`)
+   - 対象: 有起点の活動報告(`meeting-room/activities/Trigger/`)と、無起点の活動報告(`3-Hippocampus/2-Internal_Hippocampus/activities/Non_Trigger/`)
 2. 既存・新規の仕分け: 活動報告の内容を、KCBの記憶(Familiar_Patterns.md・`generalized-knowledge.md`・Experiences)と比べる
    - 既知のパターンなら、発生回数を増やす
    - 未知のパターンなら、新しい記憶・知識として、KCBの記憶に登録する
