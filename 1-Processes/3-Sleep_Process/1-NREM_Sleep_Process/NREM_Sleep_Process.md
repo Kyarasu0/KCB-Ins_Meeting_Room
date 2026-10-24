@@ -29,7 +29,7 @@
 ## 手順
 ### 経験の整理
 1. 再生・振り返り: `_reviewed` が付いていない活動報告を読む
-   - 対象: `2-Hippocampus/2-Internal_Hippocampus/activities/`
+   - 対象: `3-Hippocampus/2-Internal_Hippocampus/activities/`
 2. 既存・新規の仕分け: 活動報告の内容を、Familiar_Patterns.md・`generalized-knowledge.md`・Experiences と比べる
    - 既知のパターンなら、発生回数を増やす
    - 未知のパターンなら、新しい記憶・知識として登録する
