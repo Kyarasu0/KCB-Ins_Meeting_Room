@@ -1,4 +1,4 @@
-# Kyamome Chick Brain Inspired Meeting Room
+# KyamomeChick Brain-Inspired Harness
 ## このプロジェクトの定義
 このプロジェクトはClaudeなどのクラウドAIに適用するハーネスであり、
 KyamomeChickという、Kyarasuが育てているローカルAIの脳構造に基づいている。
