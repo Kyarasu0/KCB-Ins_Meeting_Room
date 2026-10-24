@@ -44,3 +44,25 @@ KyamomeChickという、Kyarasuが育てているローカルAIの脳構造に�
 - プロダクトをまたいで使える記憶(Experiences、一般化した教訓、既知パターン、ユーザーの好みなど)は、KCBの海馬に置く
 - meeting-roomからKCBの記憶への登録は、meeting-roomの上で行う睡眠プロセスだけが行う。睡眠で、他のプロダクトでも使えるものを選別して入れる
 - ユーザーのルール(`user-rules.md`)は、KCBの外部海馬に置く
+
+## Claudeへの反映の仕方
+このリポジトリは、手順書の集まりで、Claudeに読ませて初めて動く。Claude Codeで使う場合の手順は、次のとおり
+
+1. KCB(このリポジトリ)を、手元にcloneする
+2. 使うプロダクトに、meeting-roomを置く。雛形は、`5-Meeting_Room/`(中身を、そのプロダクトのmeeting-roomとしてコピーする)
+3. Claudeに読ませる。プロダクトの `CLAUDE.md`(または、ユーザー全体の `~/.claude/CLAUDE.md`)に、次のように書く
+   ```text
+   # KCB(KyamomeChickBrain-Inspired-Harness)に従う
+   - ユーザーの入力を受けたら、まず <KCBのパス>/1-Processes/1-Trigger_Based_Thinking_Process/0-Orchestrator.md を読み、その手順に従う
+   - このプロダクトのmeeting-roomは、<meeting-roomのパス>
+   - <KCBのパス>/3-Hippocampus/ATTENTION.md がある場合は、先に読む
+   ```
+4. 各プロセスの手順書は、そのプロセスに進むときに読む(最初に全部は読まない。トークンを節約するため)
+5. 記憶を、公開リポジトリに置きたくない場合は、`3-Hippocampus/ATTENTION.md`(`.gitignore` で除外される)に、「記憶は、非公開の場所(例: 別の非公開リポジトリ)に、同じフォルダ構造で置く」と、置き場所を書く
+6. 無起点思考や、Issue_Reaperの1分ごとの確認は、定期的に動かす仕組み(例: Claude Codeの `/loop`、cron)で起動する
+7. Geneは、`2-DNAs/` のGeneを、Request_Sorterが、依頼のタグに合わせて指定する。使いたくないGeneは、名前の条件の文字を `x` にする(例: `Gene(x#every)-Name`)
+
+注意
+- 手順書は、Claudeへの指示で、強制する仕組みではない。実際に従うかは、`CLAUDE.md` の読み込みと、モデルの判断による
+- このハーネスは、まだ実運用で通して検証していない。重みや数値(感情ベクトルなど)は、初期値
+
