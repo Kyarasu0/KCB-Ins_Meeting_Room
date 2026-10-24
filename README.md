@@ -1,4 +1,15 @@
 # KyamomeChick Brain-Inspired Harness
+
+## 概要
+ClaudeなどのクラウドAIに、「依頼を受ける → 計画する → 実行する → 振り返る → 睡眠で記憶を整理する」という流れを、人間の脳の構造に着想を得た手順書で、守らせるためのハーネス(手順書と記憶の置き場の集まり)。
+
+- 3つの思考: ユーザーの依頼に答える有起点思考、ユーザーの入力がないときの無起点思考、記憶を整理する睡眠(NREM・REM)
+- 計画してから実行する: 依頼を、ゴールと必要条件に分け、複数の行動候補を評価して、ユーザーの承認を得てから、実行する
+- 予測と結果のずれから学ぶ: 行動前に報酬(ドーパミンスコア)を予測し、結果との差を、反省と睡眠で、経験として蓄える
+- 追加の動き(Gene)を差し込める: 依頼のタグ付け、Issueの自動着手、疑似感情の調査など
+- 記憶は、公開しない: 手順書だけを公開し、記憶は、非公開の場所に置ける
+
+English: A brain-inspired harness (a set of procedures and a memory layout) for cloud AI agents such as Claude. It adds trigger-based thinking, non-trigger thinking, and sleep-based memory consolidation. Experimental, and not affiliated with Anthropic.
 ## このプロジェクトの定義
 このプロジェクトはClaudeなどのクラウドAIに適用するハーネスであり、
 KyamomeChickという、Kyarasuが育てているローカルAIの脳構造に基づいている。
