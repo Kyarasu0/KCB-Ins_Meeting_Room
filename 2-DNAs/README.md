@@ -5,7 +5,7 @@
 | DNAs | Geneを集めたもの。このフォルダ |
 | Gene | 思考プロセス(有起点・無起点・睡眠)に差し込む、1つずつの追加の動き。Geneごとに、「プロセスXで、このGeneが指定されているときは、こうする」という形で書く |
 | 指定 | そのGeneを使うと決まっていること。ユーザーが指示したとき、またはGene名のカッコの条件に当てはまるときに、指定される。`x#` のGeneは、指定されない |
-| Gene名の読み方 | `Gene(t#every)-Name` のように書く。カッコ内は、動く条件。t = tag(依頼のタグ)で、#の後ろがタグの値(every = すべてのタグ、Developments = 開発のタグ(開発-設計相談、開発-実装依頼など))。条件に当てはまる依頼のときに、そのGeneが指定される |
+| Gene名の読み方 | `Gene(t#every)-Name` のように書く。カッコ内は、動く条件。t = tag(依頼のタグ)で、#の後ろがタグの値(every = すべてのタグ、Developments = `Developments-` で始まるタグ(`Developments-Design_Consultation`、`Developments-Implementation_Request` など))。条件に当てはまる依頼のときに、そのGeneが指定される |
 | 無効のGene | 条件の文字を `x` にしたもの(例: `Gene(x#every)-Name`)。書いてあるだけで、実行しない。指定されても動かない。有効にするときは、`x` を `t` に書き換える |
 
 ## 目的
