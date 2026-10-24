@@ -2,10 +2,10 @@
 ## 用語の説明
 | 用語 | 説明 |
 | --- | --- |
-| desk | 各プロダクトの meeting-room の中に置く、そのプロダクトの作業の場所。活動報告(`desk/activities/`)、そのプロダクト固有のルール(`desk/rules/`)、plan(`desk/plans/`)、夢日記(`desk/dream_diary/`)を置く。睡眠は、deskの上で行う |
-| KCBの記憶 | KCBの海馬(`3-Hippocampus/`)にある、プロダクトをまたいで使える記憶(Experiences、`generalized-knowledge.md`、Familiar_Patterns.md、ユーザーの好みなど)。deskの活動報告から、睡眠で入れる |
-| 有起点の活動報告 | 有起点思考の作業ごとに作る記録。`desk/activities/Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N_依頼の題名.md` に置く。Nはその日の作業番号。依頼の題名は、整理した依頼を表す短い名前で、依頼が複数あるときは、全体を表す名前にする |
-| 無起点の活動報告 | 無起点思考の1回の起動ごとに作る記録。`desk/activities/Non_Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N.md` に置く。有起点の活動報告とは、分けて保存する |
+| meeting-room | 各プロダクトに置く、開発するクラウドAIと人間が、プロダクトのプログラムとは関係なく、認識を合わせる場。そのプロダクトの活動報告(`meeting-room/activities/`)、固有のルール(`meeting-room/rules/`)、plan(`meeting-room/plans/`)、夢日記(`meeting-room/dream_diary/`)を置く。睡眠は、meeting-roomの上で行う。雛形は、KCBの `5-Meeting_Room/` |
+| KCBの記憶 | KCBの海馬(`3-Hippocampus/`)にある、プロダクトをまたいで使える記憶(Experiences、`generalized-knowledge.md`、Familiar_Patterns.md、ユーザーの好みなど)。meeting-roomの活動報告から、睡眠で入れる |
+| 有起点の活動報告 | 有起点思考の作業ごとに作る記録。`meeting-room/activities/Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N_依頼の題名.md` に置く。Nはその日の作業番号。依頼の題名は、整理した依頼を表す短い名前で、依頼が複数あるときは、全体を表す名前にする |
+| 無起点の活動報告 | 無起点思考の1回の起動ごとに作る記録。`meeting-room/activities/Non_Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N.md` に置く。有起点の活動報告とは、分けて保存する |
 
 ## 目的
 - プロセス1からプロセス7までを順番に進め、プロセスが進むごとにユーザーへ報告し、活動報告を更新する
@@ -32,8 +32,8 @@
 
 ## 手順
 1. ユーザーの入力を受け取ったら、その入力に対応する活動報告があるか確認する
-   - 場所: 有起点の活動報告のフォルダ(`desk/activities/Trigger/YYYY-MM-DD-activities/`)
-   - ない場合: その日のフォルダ内で最も大きい番号に1を足した番号(フォルダがなければ1)で、`desk/activities/TEMPLATE.md` をもとに新規作成する(書き方は `3-Hippocampus/1-External_Hippocampus/` の `activity-report-rules.md` に従う)。依頼の題名は、プロセス1で依頼を整理したあとに、ファイル名に付ける
+   - 場所: 有起点の活動報告のフォルダ(`meeting-room/activities/Trigger/YYYY-MM-DD-activities/`)
+   - ない場合: その日のフォルダ内で最も大きい番号に1を足した番号(フォルダがなければ1)で、`meeting-room/activities/TEMPLATE.md` をもとに新規作成する(書き方は `3-Hippocampus/1-External_Hippocampus/` の `activity-report-rules.md` に従う)。依頼の題名は、プロセス1で依頼を整理したあとに、ファイル名に付ける
    - ある場合: その活動報告を更新していく
 2. プロセス1から順に、各プロセスの手順書に従って進める
    - Geneが指定されているときは、各プロセスで、`2-DNAs/` のそのGeneの手順にも従う

@@ -18,7 +18,7 @@
    - 報酬の予測誤差が大きいときは、ユーザーの好みや喜ぶ点の読み違えがなかったか
    - ゴールを実現できなかったときは、何が足りなかったか
 3. 活動報告を完成させる(書き方は `3-Hippocampus/1-External_Hippocampus/` の `activity-report-rules.md` に従う)
-   - 有起点の活動報告(`desk/activities/Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N_依頼の題名.md`。用語はオーケストレーターの用語の説明を参照)
+   - 有起点の活動報告(`meeting-room/activities/Trigger/YYYY-MM-DD-activities/YYYY-MM-DD-N_依頼の題名.md`。用語はオーケストレーターの用語の説明を参照)
    - アンケートの結果、実際のドーパミンスコア、トークンの状態も含める
    - 聞く内容の保留で、まだ聞けていない項目があれば、その旨も書く
 4. ユーザーの好みを、活動報告に記録する

@@ -48,7 +48,7 @@
 ## 海馬の検索の深さ
 - 浅い: ファイル名と見出しだけを見る(核心だけを思い出す)
 - 標準: 関係しそうなフォルダ内の本文まで読む
-- 深い: KCBの 3-Hippocampus/1-External_Hippocampus/ と 3-Hippocampus/2-Internal_Hippocampus/、deskを、必要なら全探索までする
+- 深い: KCBの 3-Hippocampus/1-External_Hippocampus/ と 3-Hippocampus/2-Internal_Hippocampus/、meeting-roomを、必要なら全探索までする
 
 ## プロセス3から差し戻されたとき
 差し戻しの理由(例: 「検索が浅くて根拠が見つからない」)を読み、
